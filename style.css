@@ -1,0 +1,69 @@
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho img {
+    height: 100px;
+    width: 100px;
+}
+
+.cabecalho h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/wallpaper.jpg);
+}
+
+.imagem1 {
+    height: 260px;
+    width: 210px;
+}
+
+.imagem2 {
+    height: 260px;
+    width: 460px;
+}
+
+.imagem3 {
+    height: 270px;
+    width: 220px;
+}
+
+.coffe1 {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.9 );
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    text-align: center;
+}
+
+.coffe1 p, h2 {
+    color: white;
+}
+
+footer {
+    background-color: #ffffff;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);  
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #333333;
+}
